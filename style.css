@@ -1,0 +1,268 @@
+
+
+body {
+    margin: 0;
+    background-color: #e5e5e5;;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    height: 99px;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid rgb(0 0 0 / 26%);
+    background-color: rgba(255,255,255,.98);
+    opacity: 0.9;
+}
+
+.parent {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.menuItem {
+    color: inherit;
+    margin-right: 30px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.menuItem:hover {
+    border-bottom: 3px solid  #0a7cff;
+
+}
+
+.header {
+    display: inline-block;
+    font-weight: 900;
+    font-size: 70px;
+    letter-spacing: -1px;
+    background: linear-gradient(83.84deg, #0088FF -6.87%, #A033FF 26.54%, #FF5C87 58.58%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.para {
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+.logo {
+    width: 100%;
+}
+
+.mobileMenuContainer {
+    display: none;
+    width: 55px;
+    height: 55px;
+}
+
+.mobileMenu {
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.logoContainer {
+    width: 40px;
+    height: 40px;
+}
+
+.menuContainer {
+    font-weight: 100;
+}
+
+.blockLine {
+    display: inline-block;
+    margin: 10px 0px 10px 0px;
+    border: none;
+    background-color: rgb(70 139 152 / 26%);
+    border-radius: 7px;
+    padding: 7px 12px;
+    width: 450px;
+    font-size: 17px;
+    outline: none;
+    align-items: center;
+    color: rgba(0, 0, 0, .04);
+}
+
+.blockLine1 {
+    display: block;
+    margin: 30px 0px 20px 0px;
+}
+
+.left {
+    width: 100%;
+    align-content: center;
+}
+
+.Inner {
+    display: inline-block;
+    width: 50%;
+}
+
+span {
+    font-size: 14px;
+}
+
+.span1:hover {
+    border-bottom: 2px solid  black;
+}
+
+.right {
+    display: inline-block;
+    width: 50%;
+
+}
+
+.Rightpic {
+    width: 100%;
+
+}
+
+.SignInbuttom {
+    border: 2px solid  #0a7cff;
+    color: white;
+    background-color: #0a7cff;
+    padding: 8px 22px;
+    border-radius: 25px;
+    margin-top: 14px;
+    font-size: 19px;
+    height: 40px;
+    outline: none;
+    margin-right: 10px;
+}
+
+.SignInbuttom:hover {
+    background-color: #4d4dff;
+}
+
+.forgetPassword {
+    color: #0a7cff;
+}
+
+.applink {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ioslink {
+    width: 30%;
+}
+
+.androidlink {
+    width: 30%;
+}
+
+.mainFooter {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+
+.footer {
+    font-size: 13px;
+    display: inline-block;
+
+}
+
+.menuItem2 {
+    font-size: 14px;
+    text-decoration: none;
+    color: inherit;
+}
+
+@media (max-width: 1070px) {
+
+    .container {
+        width: 100%;
+    }
+
+    .Inner {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .left {
+        width: 82%;
+        margin: 0 auto;
+        align-content: center;
+        text-align: center;
+    }
+
+    .header {
+        text-align: center;
+        font-weight: 400;
+        font-size: 53px;
+        line-height: 52px;
+        letter-spacing: -2px;
+        padding: 0 0 8px;
+        max-width: unset;
+    }
+
+
+    .blockLine {
+        width: 500px;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .Rightpic {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .mainFooter {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+}
+
+@media (max-width: 726px) {
+
+    .Inner {
+        width: 100%;
+    }
+
+    .left {
+        width: 90%;
+    }
+
+    .blockLine {
+        width: 390px;
+    }
+
+    .header {
+        text-align: left;
+        letter-spacing: -4px;
+    }
+
+    .menuContainer {
+        display: none;
+    }
+
+    .mobileMenuContainer {
+        display: block;
+    }
+}
+
+@media (max-width: 550px) {
+    .left {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .blockLine {
+        width: 290px;
+    }
+}
